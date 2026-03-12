@@ -2,8 +2,14 @@ from data_cleaning import load_data, clean_pipeline
 from pipeline_metrics import win_rate
 
 
-accounts, products, sales_teams, pipeline = load_data()
+def main():
 
-pipeline = clean_pipeline(pipeline)
+    accounts, products, sales_teams, pipeline = load_data()
 
-print("Win Rate:", win_rate(pipeline))
+    pipeline = clean_pipeline(pipeline)
+
+    print("Win Rate:", win_rate(pipeline))
+
+
+if __name__ == "__main__":
+    main()
