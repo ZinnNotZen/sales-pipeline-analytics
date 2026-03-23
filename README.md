@@ -4,14 +4,14 @@ This project analyzes CRM sales opportunity data to evaluate pipeline health, sa
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 <img width="1298" height="1610" alt="Sales Performance Overview" src="https://github.com/user-attachments/assets/732ed195-a2e4-459b-89a1-bac0245c2fc9" />
 
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 * Evaluate overall pipeline health and deal distribution across stages
 * Measure sales performance at the representative level
@@ -22,7 +22,7 @@ This project analyzes CRM sales opportunity data to evaluate pipeline health, sa
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 **Pipeline Bottlenecks**
 A significant concentration of deals occurs in late-stage pipeline phases, suggesting potential friction during negotiation and closing.
@@ -38,7 +38,7 @@ Certain products contribute disproportionately to total revenue, indicating stro
 
 ---
 
-## 📊 Dashboard Metrics
+## Dashboard Metrics
 
 The Tableau dashboard includes:
 
@@ -55,7 +55,7 @@ The Tableau dashboard includes:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Python (Pandas, NumPy, Matplotlib, Scikit-learn)
 * Tableau (Dashboard Development)
@@ -64,7 +64,7 @@ The Tableau dashboard includes:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 sales-pipeline-analytics/
@@ -96,7 +96,7 @@ sales-pipeline-analytics/
 
 ---
 
-## ⚙️ Key Calculations
+## Key Calculations
 
 **Win Rate**
 
@@ -118,7 +118,7 @@ IF [deal_stage] != "Lost" THEN ZN([close_value]) END
 
 ---
 
-## 🔮 Forecasting Component
+## Forecasting Component
 
 A basic predictive model was developed to estimate the likelihood of deal closure using features such as:
 
@@ -131,7 +131,7 @@ This simulates forecasting support commonly provided in sales analytics roles.
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 Clone the repository:
 
@@ -153,13 +153,13 @@ python src/run_pipeline.py
 
 ---
 
-## 📎 Dataset
+## Dataset
 
 CRM Sales Opportunities dataset sourced from Kaggle.
 
 ---
 
-## 👤 Author
+## Author
 
 Rowan Zinn
 MS Data Science – Western Governors University
@@ -168,7 +168,7 @@ GitHub: https://github.com/ZinnNotZen
 
 ---
 
-## 💡 Summary
+## Summary
 
 This project demonstrates the ability to:
 
